@@ -47,3 +47,7 @@ The training dataset can be found here:
 https://www.kaggle.com/datasets/studentramya/lang-8?select=lang8.train.auto.bea19.m2
 ```
 It includes annotated examples of grammatical errors for optimizing the model's performance in English grammar correction
+
+![Screenshot (2212)](https://github.com/Yassin522/English-Grammar-Error-Correction/assets/88105077/a0b498e5-5f8e-4fb3-b53d-56f5f15543db)
+
+
