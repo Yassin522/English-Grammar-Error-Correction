@@ -23,6 +23,22 @@ We utilized the wiki-news-300d-1M.vec pre-trained embedding model to enhance the
 https://www.kaggle.com/datasets/pablomarino/wikinews300d1msubwordvec
 ```
 
+- Encoder-Decoder Training Results:
+```
+311/311 [==============================] - 8213s 26s/step - loss: 0.1656 - f_beta_score: 0.6820 - val_loss: 0.1498 - val_f_beta_score: 0.6787
+
+```
+- T5 Training Results:
+| Step  | Training Loss | Validation Loss | Gleu     | Gen Len     |
+|-------|---------------|------------------|----------|-------------|
+| 250   | No log        | 0.732383         | 10.8529  | 13.3128     |
+| 500   | 0.841700      | 0.699691         | 12.1853  | 13.2924     |
+| 750   | 0.841700      | 0.683649         | 13.0578  | 13.2735     |
+| 1000  | 0.742300      | 0.676036         | 13.4657  | 13.2856     |
+| 1250  | 0.742300      | 0.670769         | 13.6931  | 13.2697     |
+| 1500  | 0.729500      | 0.668988         | 13.7441  | 13.2724     |
+
+
 ## Evaluation
 The performance of the grammar correction system is evaluated using metrics such as precision, recall, and F1 score, Gleu. 
 
