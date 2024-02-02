@@ -17,6 +17,12 @@ The T5 model is fine-tuned on a dataset containing annotated examples of grammat
 - Encoder-Decoder Training:
 The Encoder-Decoder architecture is trained on a parallel corpus of correct and incorrect sentences. The training process involves optimizing the model's parameters to minimize the difference between the predicted corrected sentence and the ground truth.
 
+- Embedding Model:
+We utilized the wiki-news-300d-1M.vec pre-trained embedding model to enhance the representation of words in the input text.
+```
+https://www.kaggle.com/datasets/pablomarino/wikinews300d1msubwordvec
+```
+
 ## Evaluation
 The performance of the grammar correction system is evaluated using metrics such as precision, recall, and F1 score, Gleu. 
 
